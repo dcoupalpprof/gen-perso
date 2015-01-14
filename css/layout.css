@@ -1,0 +1,155 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+.page
+{
+	border:3px solid #222;
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	padding:10px;
+}
+
+.persos li
+{
+	border:1px solid #000;
+	position:relative;
+}
+
+.persos .btn_delete
+{
+	position:absolute;
+	bottom:0;
+	right:0;
+	margin:0;
+}
+
+.persos .infos
+{
+	width:50%;
+	float:left;
+}
+
+.persos dl
+{
+	width:50%;
+	margin-left:-2px;
+	float:left;
+	border:1px dashed #000;
+	text-align:center;
+	margin-top:36px;
+}
+
+.persos h3
+{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+/* ========= AJOUT ============ */
+form fieldset
+{
+	border:1px solid #999;
+	padding-left:5px;
+}
+
+form textarea
+{
+	resize:none;
+}
+
+form fieldset legend
+{
+	margin-left:10px;
+}
+
+.attributs label
+{
+	display:inline;
+}
+
+.attributs .plus,.attributs .moins
+{
+	overflow:hidden;
+	text-indent:-5000px;
+	padding:0;margin:0;
+	width:14px;height:14px;
+	border:none;outline:none;
+	background:url(../images/plusmoins.png) no-repeat;
+}
+
+.attributs .plus
+{
+	margin:0 4px;
+}
+
+.attributs .moins
+{
+	background-position:-14px 0;
+}
+
+.attributs button.disabled
+{
+	visibility:hidden;
+	pointer-events:none;
+	cursor:default;
+}
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/

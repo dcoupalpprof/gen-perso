@@ -1,0 +1,63 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Créateur de personnages</title>
+
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/layout.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+    	<h2>Contenu</h2>
+        <ul class="persos">
+        	<!--<li class="clearfix">
+            	<div class="infos">
+                    <h3>Nom du perso</h3>
+                    <p>Description du personnage</p>
+                </div>
+                <dl>
+                	<dt>Force</dt>
+                    <dd>3</dd>
+                    <dt>Dextérité</dt>
+                    <dd>1</dd>
+                    <dt>Endurance</dt>
+                    <dd>2</dd>
+                </dl>
+                <button class="btn_delete">Supprimer</button>
+            </li>-->
+        </ul>
+
+        <div class="page ajout">
+            <h2>Ajout</h2>
+            <form>
+                <fieldset><legend>Informations</legend>
+                    <label for="fld_pseudo">Pseudonyme du personnage</label>
+                    <input id="fld_pseudo" type="text" name="pseudo" placeholder="Pseudo">
+                    <label for="fld_avatar">Avatar du personnage</label>
+                    <label for="fld_desc">Description du personnage</label>
+                    <textarea name="desc" id="fld_desc"></textarea>
+                </fieldset>
+                <fieldset class="attributs"><legend>Attributs</legend>
+                	<label class="pts_restants">Points restants:<span>5</span></label>
+                    <div><label class="pts_force">Force:</label><span class="valeur">2</span><span><button title="+1" class="plus">+</button><button title="-1" class="moins">-</button></span></div>
+                    <div><label class="pts_dext">Dextérité:</label><span class="valeur">2</span><span><button title="+1" class="plus">+</button><button title="-1" class="moins">-</button></span></div>
+                    <div><label class="pts_endur">Endurance:</label><span class="valeur">2</span><span><button title="+1" class="plus">+</button><button title="-1" class="moins">-</button></span></div>
+                </fieldset>
+                <input type="submit" name="bt_submit" value="Enregistrer"/>
+            </form>
+       </div><!--.ajout-->
+
+    </div><!-- container -->
+
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
