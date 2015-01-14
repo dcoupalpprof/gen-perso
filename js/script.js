@@ -10,7 +10,7 @@ $(function()
 
 
 
-	//2.ATTRIBUTS- Bouton PLUS
+	//2.ATTRIBUTS- Bouton MOINS
 	//Le bouton - soustrait un point à l'attribut et augmente le nombre de points restants. La CLASSE "disabled" doit être donnée à ce bouton
 	// si le nombre de point atteint le 0.
 	//La CLASSE disabled des boutons + doit être enlevée si les points restants = 1.
