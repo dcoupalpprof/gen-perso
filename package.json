@@ -1,0 +1,22 @@
+{
+  "name": "gen-perso",
+  "version": "0.1.0",
+  "description": "Vous devez débuter par programmer l'interactivité de l'interface depuis le fichier _js/script.js_.  \r Veuillez lire les commentaires attentivement pour en savoir plus sur la marche à suivre.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcoupalpprof/gen-perso.git"
+  },
+  "author": "dcoupal@cstj.qc.ca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcoupalpprof/gen-perso/issues"
+  },
+  "homepage": "https://github.com/dcoupalpprof/gen-perso#readme",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

@@ -1,7 +1,6 @@
 
 
-$(function()
-{
+$(function(){
 
 	//1.ATTRIBUTS- Bouton PLUS
 	//Le bouton + ajoute un point à l'attribut et diminue le nombre de points restants. La CLASSE "disabled" doit être donnée aux boutons
@@ -23,8 +22,7 @@ $(function()
 	//Réinitialisation du formulaire
 
 	//désactive l'envoi du formulaire au serveur lorsque l'on clic sur un bouton
-	$('form').submit(function(e)
-	{
+	$('form').submit(function(e){
 		e.preventDefault();
 
 	});
